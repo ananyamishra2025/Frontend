@@ -1,0 +1,94 @@
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.2;
+    font-style: initial;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(57, 55, 55);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: gainsboro;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-color: rgb(172, 172, 172);
+    border-style: solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(96, 96, 96);
+    margin: 10px;
+}
+
+nav a:hover{
+    color: black;
+}
+
+.container{
+    display: flex;
+    margin: 0;
+}
+
+aside{
+    width: 15%;
+    background-color: gainsboro;
+    padding: 10px;
+}
+
+aside ul{
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li{
+    margin: 10px 0;
+}
+
+aside ul li a{
+    text-decoration: none;
+    color: rgb(104, 104, 104);
+}
+
+aside ul li a:hover{
+    color: black;
+}
+
+main{
+    width: 85%;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.image-gallery{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-gallery img {
+    width: 30%;
+    height: 400px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
